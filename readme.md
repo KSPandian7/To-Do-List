@@ -268,7 +268,7 @@ function addTask() {
         taskText.classList.toggle("checked");
     };
 
-    var taskWrapper = document.createElement("div"); // New wrapper div
+    var taskWrapper = document.createElement("div");
     taskWrapper.classList.add("task-wrapper");
 
     var taskText = document.createElement("span");
